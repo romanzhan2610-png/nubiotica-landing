@@ -1,0 +1,2231 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title data-i18n="meta_title"></title>
+    <meta name="description" content="" data-i18n-content="meta_desc" />
+    <meta name="keywords" content="" data-i18n-content="meta_keywords" />
+    <meta name="author" content="Nubiotica" />
+
+    <link rel="canonical" href="https://nubiotica.kz/" id="canonical-link" />
+
+    <link rel="alternate" hreflang="ru" href="https://nubiotica.kz/" />
+    <link rel="alternate" hreflang="kk" href="https://nubiotica.kz/kz/" />
+    <link rel="alternate" hreflang="en" href="https://nubiotica.kz/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://nubiotica.kz/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" data-i18n-content="meta_title" />
+    <meta property="og:description" content="" data-i18n-content="meta_desc" />
+    <meta property="og:url" content="https://nubiotica.kz/" id="og-url" />
+    <meta property="og:image" content="https://nubiotica.kz/img/og-image.jpg" />
+    <meta property="og:site_name" content="Nubiotica" />
+    <meta property="og:locale" content="ru_RU" id="og-locale" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="" data-i18n-content="meta_title" />
+    <meta name="twitter:description" content="" data-i18n-content="meta_desc" />
+    <meta
+      name="twitter:image"
+      content="https://nubiotica.kz/img/og-image.jpg"
+    />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <script type="application/ld+json" id="schema-json"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script
+      defer
+      src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    ></script>
+    <script defer src="/main.js"></script>
+  </head>
+  <body>
+    <header id="sect-header">
+      <div class="header-inner">
+        <div class="logo">
+          <svg
+            class="logo-svg"
+            width="179"
+            height="22"
+            viewBox="0 0 2000 243"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M447.531 148.308C447.531 177.126 438.804 200.263 421.35 217.718C404.832 234.235 384.097 242.494 359.145 242.494C331.849 242.494 309.767 235.406 292.897 221.231C274.037 205.299 264.606 182.339 264.606 152.35V3.51465C274.33 4.10038 283.468 4.39258 292.02 4.39258C300.688 4.39256 307.834 3.92446 313.457 2.9873V154.634C313.457 169.394 317.967 180.875 326.987 189.075C335.422 196.573 345.965 200.321 358.617 200.321C377.361 200.321 389.837 190.715 396.046 171.503C398.272 164.591 399.384 156.039 399.384 145.848V3.51465C406.647 4.10038 412.68 4.39258 417.483 4.39258H432.068C436.988 4.39257 442.143 3.92443 447.531 2.9873V148.308ZM594.405 0C611.157 0 624.864 1.58117 635.524 4.74414C646.302 7.90711 655.088 12.1835 661.883 17.5723C675.237 27.9982 681.914 41.5286 681.914 58.1631C681.914 74.6808 675.882 88.3876 663.815 99.2822C678.107 103.734 689.178 112.168 697.026 124.586C704.172 135.715 707.745 148.074 707.745 161.663C707.745 175.135 705.753 186.673 701.771 196.279C697.905 205.885 691.638 214.145 682.969 221.057C674.417 227.851 663.288 233.122 649.582 236.871C635.876 240.62 619.007 242.494 598.975 242.494C579.06 242.494 557.855 240.678 535.363 237.047V5.44727C558.09 1.81574 577.771 3.24919e-05 594.405 0ZM1031.01 0C1063.35 5.24443e-07 1090.58 10.1917 1112.72 30.5752C1136.39 52.3645 1148.22 81.7687 1148.22 118.787C1148.22 154.634 1136.04 184.448 1111.67 208.229C1096.68 222.872 1078.81 232.946 1058.08 238.452C1047.88 241.146 1035.93 242.494 1022.23 242.494C1008.64 242.494 994.64 239.683 980.231 234.06C965.94 228.437 953.463 220.529 942.803 210.337C932.143 200.145 923.708 187.903 917.499 173.611C911.408 159.32 908.362 143.68 908.362 126.694C908.362 109.591 911.232 93.4244 916.973 78.1953C922.713 62.9664 930.913 49.5535 941.573 37.9561C952.234 26.3585 965.119 17.1617 980.231 10.3672C995.343 3.45554 1012.27 0 1031.01 0ZM1685.14 0C1707.04 0 1725.73 3.80733 1741.19 11.4219V65.1924L1740.84 65.5439C1734.28 55.4693 1720.46 48.7918 1699.37 45.5117C1693.16 44.4574 1685.31 43.9297 1675.82 43.9297C1666.34 43.9297 1657.02 45.7455 1647.88 49.377C1638.75 52.8913 1631.25 57.9292 1625.39 64.4893C1614.03 77.2583 1608.35 95.475 1608.35 119.139C1608.35 146.668 1615.55 167.169 1629.96 180.641C1641.91 191.887 1657.72 197.51 1677.41 197.51C1699.66 197.51 1717.7 192.765 1731.53 183.276C1736.56 179.879 1740.84 175.661 1744.35 170.624L1744.88 170.976V220.178C1726.96 235.055 1702.83 242.494 1672.49 242.494C1636.76 242.494 1608.76 231.131 1588.49 208.404C1569.04 186.732 1559.32 158.031 1559.32 122.302C1559.32 84.4633 1569.98 54.6487 1591.3 32.8594C1612.86 10.9532 1644.14 6.28874e-05 1685.14 0ZM1867.33 3.86621C1874.95 4.21765 1883.03 4.39258 1891.58 4.39258C1898.61 4.39257 1907.04 4.27628 1916.88 4.04199L1917.06 4.39258C1916.83 4.86117 1916.71 5.50614 1916.71 6.32617C1916.71 8.55213 1918.47 14.4677 1921.98 24.0732L2000 238.628C1997.66 238.511 1994.9 238.452 1991.74 238.452C1991.74 238.452 1988.7 238.336 1982.6 238.102H1947.46L1930.94 187.493H1851.52L1835 239.507C1824.92 238.57 1813.15 238.102 1799.68 238.102H1785.8L1862.24 23.8984C1865.63 14.2924 1867.33 8.72701 1867.33 7.2041C1867.33 5.56494 1867.27 4.56955 1867.16 4.21777L1867.33 3.86621ZM1364.86 0.175781V45.1602L1364.33 45.6875C1360.46 44.3989 1350.04 43.7539 1333.05 43.7539H1306.69V239.155C1301.07 238.452 1286.6 238.102 1263.29 238.102H1257.67V43.7539H1222.87C1212.56 43.7539 1206.47 44.2817 1204.6 45.3359C1202.72 46.3903 1201.26 47.3274 1200.21 48.1475L1199.68 47.9717V2.9873L1200.21 2.45996C1204.07 3.74858 1214.5 4.39258 1231.48 4.39258H1341.66C1351.97 4.39258 1358.06 3.86572 1359.93 2.81152C1361.81 1.7572 1363.27 0.820028 1364.33 0L1364.86 0.175781ZM129.33 150.943V16.3418C129.33 9.89883 128.745 5.91547 127.573 4.39258H175.018C174.432 9.07845 174.139 14.2334 174.139 19.8564V238.102H137.589L45.8633 97.3486V238.102H0C0.702881 234.119 1.05469 229.784 1.05469 225.098V4.39258H36.1982L129.33 150.943ZM828.789 238.102H780.114V3.69043C791.828 4.15899 798.916 4.39256 801.376 4.39258H814.028C820.237 4.39257 825.215 3.9244 828.964 2.9873L828.789 238.102ZM1485.55 238.102H1436.87V3.69043C1448.59 4.15902 1455.67 4.39258 1458.13 4.39258H1470.79C1476.99 4.39258 1481.97 3.92447 1485.72 2.9873L1485.55 238.102ZM1014.46 44.3809C1013.96 44.191 1013.42 44.1564 1012.91 44.2822L1006.93 45.7461L997.933 44.999C997.536 44.9665 997.137 45.0248 996.767 45.1699L990.98 47.4375L983.319 46.5713C982.972 46.5327 982.621 46.5634 982.286 46.6621C981.951 46.7609 981.64 46.926 981.371 47.1465L975.304 52.1562C974.977 52.4258 974.722 52.7709 974.563 53.1611C973.528 55.5583 972.201 57.8221 970.611 59.9014C969.931 60.7634 968.903 61.0277 967.287 61.3623C965.416 61.7481 962.287 62.3951 961.645 65.8633C961.5 66.636 960.656 67.2799 959.293 68.2646C957.412 69.4064 955.899 71.0548 954.931 73.0166C953.446 76.5715 952.549 78.7177 953.508 83.417C953.923 85.4481 951.972 89.9984 950.453 92.5801C950.276 92.883 950.162 93.2187 950.12 93.5664C950.035 94.2856 949.41 100.676 954.005 103.151C956.153 104.31 957.473 108.176 956.961 109.597C956.367 111.248 956.929 113.078 958.633 115.032C961.257 118.043 967.129 121.811 970.752 121.098C970.896 121.07 971.038 121.029 971.176 120.978C973.298 120.174 979.54 118.428 982.898 119.97C983.298 120.153 983.738 120.233 984.177 120.2C984.616 120.168 985.039 120.024 985.406 119.784C987.296 118.55 993.469 115.165 996.942 115.786C997.071 115.808 997.175 115.832 997.256 115.854L997.255 116.218C997.18 116.899 997.258 117.589 997.482 118.237C997.707 118.886 998.071 119.477 998.552 119.971C999.274 120.51 1000.1 120.896 1000.98 121.104C1001.86 121.313 1002.77 121.341 1003.66 121.185C1004.91 121.019 1006.17 121.049 1007.4 121.273C1007.3 122.173 1007.08 123.057 1006.76 123.904C1005 129.263 1004.35 132.315 1010.15 137.808C1012.41 140.039 1014.08 142.792 1015.01 145.82C1014.17 147.05 1013.7 148.487 1013.65 149.969C1013.59 151.45 1013.96 152.917 1014.7 154.203C1012.49 157.913 1011.68 162.277 1012.41 166.522C1012.7 169.771 1014.2 172.798 1016.61 175.018C1017.09 175.354 1017.47 175.798 1017.74 176.313C1018 176.829 1018.14 177.399 1018.13 177.978C1018.28 182.953 1018.44 188.094 1023.96 191.597C1025.75 193.708 1027.34 196.347 1027.45 197.367C1026.82 198.266 1026.55 199.367 1026.7 200.451C1027.09 203.556 1030.56 206.376 1031.61 207.166C1032.06 207.516 1032.62 207.711 1033.19 207.72C1033.32 207.72 1033.45 207.709 1033.58 207.687C1033.93 207.634 1034.26 207.51 1034.55 207.323C1034.84 207.137 1035.09 206.892 1035.28 206.604C1035.33 206.533 1036.69 204.848 1040.96 204.383C1047.6 203.66 1052.41 200.344 1054.22 197.379C1054.76 196.752 1055.34 196.17 1055.98 195.639C1058.26 193.565 1061.85 190.32 1061.9 186.002C1064.84 185 1068.46 183.048 1067.8 179.617C1067.58 178.597 1067.3 177.589 1066.97 176.599C1066.54 175.354 1066.21 174.08 1065.97 172.788C1067.72 171.553 1072.08 168.656 1074.17 167.273C1076.66 166.544 1080.63 164.178 1080.63 159.436L1080.62 159.435C1080.63 158.048 1080.46 156.665 1080.11 155.322C1079.77 154.163 1079.9 152.916 1080.47 151.85C1080.98 150.697 1081.15 149.431 1080.99 148.186C1080.82 146.94 1080.32 145.763 1079.53 144.779C1078.71 143.667 1078.2 142.359 1078.05 140.988C1077.82 139.043 1078.48 138.28 1080.41 136.365C1082.19 134.735 1083.68 132.818 1084.82 130.696C1085.89 128.591 1088.4 126.675 1090.82 124.823C1094.16 122.275 1097.6 119.641 1098.59 115.773C1099.1 113.767 1099.74 111.822 1100.36 109.941C1101.49 106.501 1102.46 103.53 1102.34 101.092C1102.31 100.477 1102.05 99.8938 1101.62 99.4502C1101.19 99.0068 1100.61 98.7327 1099.99 98.6777C1096.66 98.5794 1093.35 99.3018 1090.37 100.78C1089.69 101.134 1088.94 101.322 1088.17 101.325C1087.4 101.329 1086.64 101.149 1085.96 100.801C1085.54 98.5691 1083.8 95.527 1079.11 93.418C1077.39 92.6415 1077.35 92.3708 1077.19 91.2305C1077.08 89.8711 1076.63 88.5586 1075.9 87.4023C1075.17 86.2461 1074.17 85.2789 1072.99 84.5811C1070.98 83.1801 1070.91 82.6369 1070.78 81.6523C1070.65 80.4506 1070.28 79.286 1069.68 78.2324C1069.09 77.179 1068.28 76.2578 1067.31 75.5264C1063.17 71.8819 1060.66 62.9977 1060.66 60.0635C1060.66 59.6457 1060.56 59.2342 1060.36 58.8652C1060.16 58.4963 1059.88 58.1811 1059.53 57.9473C1058.13 57.1217 1056.55 56.6525 1054.93 56.584C1053.31 56.5156 1051.7 56.8495 1050.24 57.5547C1047.99 56.2101 1045.31 55.7609 1042.74 56.2969C1040.53 54.8279 1036.1 52.5459 1033.01 55.3711C1031.81 56.469 1030.84 57.7865 1030.14 59.25C1028.83 58.7155 1027.52 58.1472 1026.23 57.5469C1026.02 56.9674 1025.71 56.4326 1025.3 55.9697C1023.9 54.3781 1021.57 53.5913 1018.21 53.5771C1018.02 53.3669 1017.83 53.141 1017.67 52.9023C1018.12 52.1312 1018.41 51.2753 1018.51 50.3896C1018.61 49.5042 1018.52 48.6077 1018.26 47.7568C1017.9 46.9575 1017.38 46.2427 1016.73 45.6602C1016.07 45.0776 1015.3 44.6411 1014.46 44.3809ZM607.937 130.385C598.096 130.385 589.427 131.029 581.93 132.317V201.376C590.13 203.485 598.741 204.538 607.761 204.538C616.781 204.538 624.688 203.485 631.482 201.376C638.394 199.15 644.193 196.163 648.879 192.414C658.368 184.682 663.112 174.842 663.112 162.893C663.112 141.221 644.72 130.385 607.937 130.385ZM1094.37 160.438C1094.02 160.463 1093.69 160.556 1093.38 160.713C1093.07 160.869 1092.8 161.085 1092.58 161.348C1092.35 161.611 1092.19 161.915 1092.09 162.243C1091.64 163.694 1089.79 168.069 1087.26 169.092C1086.38 169.431 1085.48 169.711 1084.56 169.931C1081.96 170.608 1078.04 171.63 1078.85 177.603C1079.12 179.544 1078.3 180.687 1077.26 182.13C1076.07 183.489 1075.37 185.195 1075.25 186.989C1075.25 189.335 1076.65 191.491 1077.77 193.224C1078.16 193.792 1078.52 194.385 1078.83 194.999C1078.79 195.431 1078.85 195.867 1078.99 196.276C1079.14 196.686 1079.37 197.061 1079.67 197.375C1080.07 197.798 1080.99 198.762 1084.59 198.762C1085.93 198.749 1087.26 198.65 1088.58 198.465C1088.99 198.411 1089.38 198.261 1089.72 198.026C1090.06 197.792 1090.34 197.481 1090.53 197.118C1095.64 187.463 1096.8 185.191 1097.06 184.286V184.287C1097.25 183.65 1099.07 178.758 1100.73 174.396C1100.79 174.23 1100.84 174.058 1100.86 173.884C1101.49 169.834 1101.05 162.473 1095.39 160.565C1095.06 160.456 1094.71 160.412 1094.37 160.438ZM1864.87 145.32H1917.24L1890.7 63.6104L1864.87 145.32ZM604.246 36.9014C595.343 36.9014 587.904 37.2532 581.93 37.9561V92.7803C586.85 93.6003 593 94.0107 600.38 94.0107C607.76 94.0107 613.794 93.0736 618.479 91.1992C623.283 89.2077 626.973 86.747 629.55 83.8184C633.767 79.0153 635.876 72.3378 635.876 63.7861C635.876 45.8629 625.332 36.9014 604.246 36.9014Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+
+        <nav class="nav-desk">
+          <div class="nav-item">
+            <span class="nav-link" data-i18n="nav_products"></span>
+            <div class="dropdown-menu">
+              <a
+                href="#prod-baobab"
+                class="dropdown-link"
+                data-i18n="nav_prod_baobab"
+              ></a>
+              <a
+                href="#prod-moringa"
+                class="dropdown-link"
+                data-i18n="nav_prod_moringa"
+              ></a>
+              <a
+                href="#prod-ashwa"
+                class="dropdown-link"
+                data-i18n="nav_prod_ashwa"
+              ></a>
+              <a
+                href="#prod-shata"
+                class="dropdown-link"
+                data-i18n="nav_prod_shata"
+              ></a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a
+              href="#sect-philosophy"
+              class="nav-link"
+              data-i18n="nav_philosophy"
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a href="#sect-trace" class="nav-link" data-i18n="nav_trace"></a>
+          </div>
+          <div class="nav-item">
+            <a
+              href="#sect-faq-contact"
+              class="nav-link"
+              data-i18n="nav_faq"
+            ></a>
+          </div>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switcher desktop-lang-switcher">
+            <button class="lang-btn">
+              <span class="lang-btn-text">RU</span>
+              <span class="lang-arrow">▾</span>
+            </button>
+            <div class="lang-dropdown">
+              <a href="/" data-lang="ru" class="active">Русский</a>
+              <a href="/kz/" data-lang="kz">Қазақша</a>
+              <a href="/en/" data-lang="en">English</a>
+            </div>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send/?phone=77070171883"
+            class="social-icon"
+            aria-label="WhatsApp"
+            target="_blank"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://t.me/nubiotica"
+            class="social-icon"
+            aria-label="Telegram"
+            target="_blank"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.94z"
+              />
+            </svg>
+          </a>
+          <button
+            class="btn-header btn-header-outline"
+            onclick="openModal('contact')"
+            data-i18n="btn_contact"
+          ></button>
+
+          <div class="buy-wrapper">
+            <button
+              class="btn-header btn-header-primary"
+              onclick="toggleBuyDropdown(this)"
+              data-i18n="btn_buy"
+            ></button>
+            <div class="buy-dropdown">
+              <a
+                href="https://www.wildberries.ru/seller/4062695"
+                target="_blank"
+                class="buy-item"
+              >
+                Wildberries <span class="buy-item-icon">↗</span>
+              </a>
+              <a
+                href="https://ozon.kz/seller/unistores/"
+                target="_blank"
+                class="buy-item"
+              >
+                Ozon <span class="buy-item-icon">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="lang-switcher mobile-lang-switcher">
+          <button class="lang-btn">
+            <span class="lang-btn-text">RU</span>
+            <span class="lang-arrow">▾</span>
+          </button>
+          <div class="lang-dropdown">
+            <a href="/" data-lang="ru" class="active">Рус</a>
+            <a href="/kz/" data-lang="kz">Қаз</a>
+            <a href="/en/" data-lang="en">Eng</a>
+          </div>
+        </div>
+        <button class="burger-btn" onclick="toggleMobileMenu()">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" data-lenis-prevent>
+      <div class="mm-section">
+        <strong class="mm-title" data-i18n="mm_catalog"></strong>
+        <a
+          href="#prod-baobab"
+          class="mm-sublink"
+          onclick="toggleMobileMenu()"
+          data-i18n="nav_prod_baobab"
+        ></a>
+        <a
+          href="#prod-moringa"
+          class="mm-sublink"
+          onclick="toggleMobileMenu()"
+          data-i18n="nav_prod_moringa"
+        ></a>
+        <a
+          href="#prod-ashwa"
+          class="mm-sublink"
+          onclick="toggleMobileMenu()"
+          data-i18n="nav_prod_ashwa"
+        ></a>
+        <a
+          href="#prod-shata"
+          class="mm-sublink"
+          onclick="toggleMobileMenu()"
+          data-i18n="nav_prod_shata"
+        ></a>
+      </div>
+      <div class="mm-nav">
+        <a
+          href="#sect-philosophy"
+          class="mm-link"
+          onclick="toggleMobileMenu()"
+          data-i18n="nav_philosophy"
+        ></a>
+        <a
+          href="#sect-trace"
+          class="mm-link"
+          onclick="toggleMobileMenu()"
+          data-i18n="nav_trace"
+        ></a>
+        <a
+          href="#sect-faq-contact"
+          class="mm-link"
+          onclick="toggleMobileMenu()"
+          data-i18n="mm_faq"
+        ></a>
+      </div>
+      <div class="mm-footer">
+        <strong class="mm-title" data-i18n="mm_contact"></strong>
+        <div class="mm-socials">
+          <a
+            href="https://api.whatsapp.com/send/?phone=77070171883"
+            class="mm-social-icon"
+            aria-label="WhatsApp"
+            target="_blank"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://t.me/nubiotica"
+            class="mm-social-icon"
+            aria-label="Telegram"
+            target="_blank"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.94z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/nubiotica.kz"
+            class="mm-social-icon"
+            aria-label="Instagram"
+            target="_blank"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="mm-contact">hello@nubiotica.kz</p>
+      </div>
+    </div>
+
+    <div class="floating-bar">
+      <div class="float-icon" onclick="openModal('contact')" title="Связаться">
+        <svg
+          viewBox="0 0 24 24"
+          width="22"
+          height="22"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="float-cta"
+        onclick="openMarketplaceModal()"
+        data-i18n="float_buy"
+      ></div>
+    </div>
+
+    <div class="modal-backdrop" id="modal-contact">
+      <div class="modal-window">
+        <button class="modal-close" onclick="closeModal('contact')">×</button>
+        <h3 class="modal-title" data-i18n="modal_contact_title"></h3>
+        <p class="modal-sub" data-i18n="modal_contact_sub"></p>
+        <form id="contactModalForm" class="smart-form" novalidate>
+          <input type="hidden" name="form_type" value="contact" />
+
+          <div class="h-pot" aria-hidden="true">
+            <label for="work_email"
+              >Оставьте это поле пустым, если вы человек</label
+            >
+            <input
+              type="text"
+              name="work_email"
+              tabindex="-1"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="f-group">
+            <label class="f-label" data-i18n="form_lbl_name"></label>
+            <input
+              type="text"
+              id="contact_name"
+              name="user_name"
+              class="f-input"
+              data-i18n="form_plh_name"
+              placeholder=""
+              required
+            />
+            <div class="f-error-msg" data-i18n="form_err_name"></div>
+          </div>
+
+          <div class="f-group">
+            <label class="f-label" data-i18n="form_lbl_subj"></label>
+            <select name="subject" class="f-select">
+              <option
+                value="Помощь с выбором продукта"
+                data-i18n="form_opt_1"
+              ></option>
+              <option
+                value="Вопрос по доставке"
+                data-i18n="form_opt_2"
+              ></option>
+              <option
+                value="Оптовое сотрудничество"
+                data-i18n="form_opt_3"
+              ></option>
+              <option value="Предзаказ" data-i18n="form_opt_4"></option>
+            </select>
+          </div>
+
+          <div class="f-group">
+            <label class="f-label" data-i18n="form_lbl_comm"></label>
+            <div class="comm-row">
+              <label class="comm-opt">
+                <input
+                  type="radio"
+                  name="comm"
+                  value="WhatsApp"
+                  checked
+                  onchange="updateContactInput(this)"
+                />
+                <span class="comm-box">WhatsApp</span>
+              </label>
+              <label class="comm-opt">
+                <input
+                  type="radio"
+                  name="comm"
+                  value="Telegram"
+                  onchange="updateContactInput(this)"
+                />
+                <span class="comm-box">Telegram</span>
+              </label>
+              <label class="comm-opt">
+                <input
+                  type="radio"
+                  name="comm"
+                  value="Email"
+                  onchange="updateContactInput(this)"
+                />
+                <span class="comm-box">Email</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="f-group">
+            <label
+              class="f-label dynamic-contact-label"
+              data-i18n="form_lbl_phone"
+            ></label>
+            <input
+              type="tel"
+              name="contact_info"
+              class="f-input dynamic-contact-input"
+              placeholder="+7 (___) ___-__-__"
+              data-mask="phone"
+              required
+            />
+            <div
+              class="f-error-msg dynamic-error-msg"
+              data-i18n="form_err_phone"
+            ></div>
+          </div>
+
+          <div class="form-status-box"></div>
+
+          <button type="submit" class="btn-modal btn-submit">
+            <span class="btn-text" data-i18n="btn_send"></span>
+            <span
+              class="btn-loader"
+              style="display: none"
+              data-i18n="btn_sending"
+            ></span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal-backdrop" id="modal-marketplace">
+      <div class="modal-window marketplace-content">
+        <button class="modal-close" onclick="closeModal('marketplace')">
+          ×
+        </button>
+        <h3 class="modal-title" data-i18n="modal_market_title"></h3>
+        <p class="modal-sub" data-i18n="modal_market_sub"></p>
+        <div class="marketplace-options">
+          <a href="#" target="_blank" id="btn-link-wb" class="btn-marketplace">
+            Wildberries <span class="btn-marketplace-icon">↗</span>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            id="btn-link-ozon"
+            class="btn-marketplace"
+          >
+            Ozon <span class="btn-marketplace-icon">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="sticky-scroll-wrapper">
+        <section id="sect-hero">
+          <div class="hero-bg-desktop">
+            <video
+              id="desk-intro"
+              class="hero-video"
+              src="/video/desk-1.mp4"
+              poster="/img/desk-poster1.jpg"
+              muted
+              playsinline
+              autoplay
+            ></video>
+            <video
+              id="desk-loop"
+              class="hero-video"
+              src="/video/desk-2.mp4"
+              poster="/img/desk-poster2.jpg"
+              muted
+              playsinline
+              loop
+              preload="auto"
+            ></video>
+            <div class="hero-overlay"></div>
+          </div>
+
+          <div class="hero-bg-mobile">
+            <video
+              id="mob-intro"
+              class="hero-video"
+              src="/video/mob-1.mp4"
+              poster="/img/mob-poster1.jpg"
+              muted
+              playsinline
+              autoplay
+            ></video>
+            <video
+              id="mob-loop"
+              class="hero-video"
+              src="/video/mob-2.mp4"
+              poster="/img/mob-poster2.jpg"
+              muted
+              playsinline
+              loop
+              preload="auto"
+            ></video>
+            <div class="hero-overlay"></div>
+          </div>
+
+          <div class="container-hero">
+            <div class="hero-content">
+              <h1
+                class="hero-title animate-up delay-1"
+                data-i18n="hero_title"
+              ></h1>
+              <p class="hero-sub animate-up delay-2" data-i18n="hero_sub"></p>
+              <div class="hero-actions animate-up delay-3">
+                <a
+                  href="#sect-collection"
+                  class="btn-hero btn-hero-primary"
+                  data-i18n="hero_btn_prod"
+                ></a>
+                <a
+                  href="#sect-trace"
+                  class="btn-hero btn-hero-secondary"
+                  data-i18n="hero_btn_trace"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="sect-benefits">
+          <div class="container">
+            <div class="benefits-grid">
+              <div class="ben-item">
+                <div class="ben-header">
+                  <div class="ben-icon">
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                      ></path>
+                      <polyline
+                        points="3.27 6.96 12 12.01 20.73 6.96"
+                      ></polyline>
+                      <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                  </div>
+                  <h3 class="ben-title" data-i18n="ben_1_title"></h3>
+                </div>
+                <p class="ben-text" data-i18n="ben_1_text"></p>
+                <div class="ben-tags">
+                  <span class="ben-tag">GMP</span>
+                  <span class="ben-tag">HACCP</span>
+                  <span class="ben-tag">ISO</span>
+                  <span class="ben-tag">HALAL</span>
+                  <span class="ben-tag">ECO</span>
+                </div>
+              </div>
+
+              <div class="ben-item">
+                <div class="ben-header">
+                  <div class="ben-icon">
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                      ></path>
+                      <polyline points="9 12 11 14 15 10"></polyline>
+                    </svg>
+                  </div>
+                  <h3 class="ben-title" data-i18n="ben_2_title"></h3>
+                </div>
+                <p class="ben-text" data-i18n="ben_2_text"></p>
+              </div>
+
+              <div class="ben-item">
+                <div class="ben-header">
+                  <div class="ben-icon">
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+                      ></path>
+                      <line x1="2" y1="22" x2="11" y2="13"></line>
+                    </svg>
+                  </div>
+                  <h3 class="ben-title" data-i18n="ben_3_title"></h3>
+                </div>
+                <p class="ben-text" data-i18n="ben_3_text"></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="sect-trace">
+        <div class="container">
+          <div class="trace-header">
+            <h2 class="trace-title anim-trace" data-i18n="trace_title"></h2>
+            <div class="trace-desc-grid">
+              <div class="desc-item anim-trace delay-1">
+                <div class="desc-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <p data-i18n="trace_desc_1"></p>
+              </div>
+              <div class="desc-item anim-trace delay-2">
+                <div class="desc-icon">
+                  <svg viewBox="0 0 24 24">
+                    <polygon
+                      points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"
+                    ></polygon>
+                    <line x1="8" y1="2" x2="8" y2="18"></line>
+                    <line x1="16" y1="6" x2="16" y2="22"></line>
+                  </svg>
+                </div>
+                <p data-i18n="trace_desc_2"></p>
+              </div>
+              <div class="desc-item anim-trace delay-3">
+                <div class="desc-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                    ></path>
+                  </svg>
+                </div>
+                <p data-i18n="trace_desc_3"></p>
+              </div>
+              <div class="desc-item anim-trace delay-4">
+                <div class="desc-icon">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+                </div>
+                <p data-i18n="trace_desc_4"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="trace-carousel-wrapper anim-trace delay-5">
+            <div class="trace-track" id="traceTrack">
+              <div class="trace-slide">
+                <div class="slide-visual bg-trace-baobab">
+                  <span
+                    class="status-badge mobile-badge"
+                    data-i18n="trace_badge_checked"
+                  ></span>
+                </div>
+                <div class="slide-data">
+                  <div class="prod-title">
+                    <span data-i18n="nav_prod_baobab"></span>
+                    <span
+                      class="status-badge desktop-badge"
+                      data-i18n="trace_badge_checked"
+                    ></span>
+                  </div>
+                  <div class="data-info-grid">
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_region"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_reg_bao"
+                      ></span>
+                    </div>
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_harvest"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_harv_bao"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="process-wrapper">
+                    <div
+                      class="process-label"
+                      data-i18n="trace_lbl_process"
+                    ></div>
+                    <button
+                      class="process-toggle"
+                      onclick="toggleProcess(this)"
+                    >
+                      <span data-i18n="trace_btn_process"></span>
+                      <svg viewBox="0 0 24 24">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </button>
+                    <div class="process-content">
+                      <div class="process-timeline">
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_1"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_2"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_3"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_4"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_5"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="slide-batch-info"
+                    data-i18n="trace_batch_info"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="trace-slide">
+                <div class="slide-visual bg-trace-moringa">
+                  <span
+                    class="status-badge mobile-badge"
+                    data-i18n="trace_badge_checked"
+                  ></span>
+                </div>
+                <div class="slide-data">
+                  <div class="prod-title">
+                    <span data-i18n="nav_prod_moringa"></span>
+                    <span
+                      class="status-badge desktop-badge"
+                      data-i18n="trace_badge_checked"
+                    ></span>
+                  </div>
+                  <div class="data-info-grid">
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_region"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_reg_tz"
+                      ></span>
+                    </div>
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_harvest"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_harv_sep"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="process-wrapper">
+                    <div
+                      class="process-label"
+                      data-i18n="trace_lbl_process"
+                    ></div>
+                    <button
+                      class="process-toggle"
+                      onclick="toggleProcess(this)"
+                    >
+                      <span data-i18n="trace_btn_process"></span>
+                      <svg viewBox="0 0 24 24">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </button>
+                    <div class="process-content">
+                      <div class="process-timeline">
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_mor_1"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_mor_2"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_4"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_common_3"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="slide-batch-info"
+                    data-i18n="trace_batch_info"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="trace-slide">
+                <div class="slide-visual bg-trace-ashwa">
+                  <span
+                    class="status-badge mobile-badge"
+                    data-i18n="trace_badge_checked"
+                  ></span>
+                </div>
+                <div class="slide-data">
+                  <div class="prod-title">
+                    <span data-i18n="nav_prod_ashwa"></span>
+                    <span
+                      class="status-badge desktop-badge"
+                      data-i18n="trace_badge_checked"
+                    ></span>
+                  </div>
+                  <div class="data-info-grid">
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_region"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_reg_tz"
+                      ></span>
+                    </div>
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_harvest"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_harv_sep"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="process-wrapper">
+                    <div
+                      class="process-label"
+                      data-i18n="trace_lbl_process"
+                    ></div>
+                    <button
+                      class="process-toggle"
+                      onclick="toggleProcess(this)"
+                    >
+                      <span data-i18n="trace_btn_process"></span>
+                      <svg viewBox="0 0 24 24">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </button>
+                    <div class="process-content">
+                      <div class="process-timeline">
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_root_1"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_mor_2"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_4"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_common_3"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="slide-batch-info"
+                    data-i18n="trace_batch_info"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="trace-slide">
+                <div class="slide-visual bg-trace-shata">
+                  <span
+                    class="status-badge mobile-badge"
+                    data-i18n="trace_badge_checked"
+                  ></span>
+                </div>
+                <div class="slide-data">
+                  <div class="prod-title">
+                    <span data-i18n="nav_prod_shata"></span>
+                    <span
+                      class="status-badge desktop-badge"
+                      data-i18n="trace_badge_checked"
+                    ></span>
+                  </div>
+                  <div class="data-info-grid">
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_region"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_reg_tz"
+                      ></span>
+                    </div>
+                    <div class="info-row">
+                      <span
+                        class="info-label"
+                        data-i18n="trace_lbl_harvest"
+                      ></span
+                      ><span
+                        class="info-val"
+                        data-i18n="trace_val_harv_sep"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="process-wrapper">
+                    <div
+                      class="process-label"
+                      data-i18n="trace_lbl_process"
+                    ></div>
+                    <button
+                      class="process-toggle"
+                      onclick="toggleProcess(this)"
+                    >
+                      <span data-i18n="trace_btn_process"></span>
+                      <svg viewBox="0 0 24 24">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </button>
+                    <div class="process-content">
+                      <div class="process-timeline">
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_root_1"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_mor_2"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_bao_4"
+                        ></div>
+                        <div
+                          class="process-step"
+                          data-i18n="trace_step_common_3"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="slide-batch-info"
+                    data-i18n="trace_batch_info"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-nav anim-trace delay-6">
+            <button
+              class="nav-btn"
+              onclick="moveTraceSlide(-1)"
+              data-i18n-aria="aria_prev_slide"
+            >
+              <svg viewBox="0 0 24 24">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <div class="dots" id="traceDots"></div>
+            <button
+              class="nav-btn"
+              onclick="moveTraceSlide(1)"
+              data-i18n-aria="aria_next_slide"
+            >
+              <svg viewBox="0 0 24 24">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="sect-philosophy">
+        <div class="phil-bg-wrapper"><div class="phil-bg-desktop"></div></div>
+        <div class="phil-bg-mobile"></div>
+        <div class="container">
+          <div class="phil-box">
+            <h2 class="phil-title-anim" data-i18n="phil_title"></h2>
+            <p class="phil-text-anim" data-i18n="phil_text_1"></p>
+            <p class="phil-text-anim" data-i18n="phil_text_2"></p>
+            <div class="phil-list">
+              <div class="phil-item">
+                <div class="phil-icon">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="phil-item-content">
+                  <h4 data-i18n="phil_item_1_title"></h4>
+                  <p data-i18n="phil_item_1_text"></p>
+                </div>
+              </div>
+              <div class="phil-item">
+                <div class="phil-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
+                    ></path>
+                    <path d="M2 12h20"></path>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="phil-item-content">
+                  <h4 data-i18n="phil_item_2_title"></h4>
+                  <p data-i18n="phil_item_2_text"></p>
+                </div>
+              </div>
+              <div class="phil-item">
+                <div class="phil-icon">
+                  <svg viewBox="0 0 24 24">
+                    <path
+                      d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+                    ></path>
+                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                  </svg>
+                </div>
+                <div class="phil-item-content">
+                  <h4 data-i18n="phil_item_3_title"></h4>
+                  <p data-i18n="phil_item_3_text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sect-collection">
+        <div class="container">
+          <div class="col-header">
+            <h2 data-i18n="col_header_title"></h2>
+            <p data-i18n="col_header_desc"></p>
+          </div>
+
+          <article class="prod-card" id="prod-baobab">
+            <div class="pc-visual">
+              <img
+                src="/img/product1.min.jpg"
+                data-i18n-alt="alt_prod_bao"
+                class="pc-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="pc-info">
+              <span class="pc-meta" data-i18n="col_meta_food"></span>
+              <h3 class="pc-title" data-i18n="nav_prod_baobab"></h3>
+              <div class="pc-desc-block">
+                <div class="pc-desc-title" data-i18n="col_lbl_what"></div>
+                <p class="pc-desc-text" data-i18n="col_bao_desc"></p>
+              </div>
+              <div class="pc-desc-block">
+                <ul class="pc-feature-list">
+                  <li data-i18n="col_bao_f1"></li>
+                  <li data-i18n="col_bao_f2"></li>
+                  <li data-i18n="col_bao_f3"></li>
+                  <li data-i18n="col_bao_f4"></li>
+                  <li data-i18n="col_bao_f5"></li>
+                  <li data-i18n="col_bao_f6"></li>
+                </ul>
+              </div>
+              <div class="pc-specs">
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_orig"></strong
+                  ><span data-i18n="trace_val_reg_tz"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_taste"></strong
+                  ><span data-i18n="col_val_taste_bao"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_weight"></strong
+                  ><span data-i18n="col_val_weight_100"></span>
+                </div>
+              </div>
+              <div class="pc-actions">
+                <button
+                  class="btn-col btn-col-primary"
+                  onclick="openMarketplaceModal('baobab')"
+                  data-i18n="btn_buy"
+                ></button>
+                <button
+                  class="btn-col btn-col-outline"
+                  onclick="openProdModal('baobab')"
+                  data-i18n="col_btn_about"
+                ></button>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card" id="prod-moringa">
+            <div class="pc-visual">
+              <img
+                src="/img/product2.min.jpg"
+                data-i18n-alt="alt_prod_mor"
+                class="pc-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="pc-info">
+              <span class="pc-meta" data-i18n="col_meta_nature"></span>
+              <h3 class="pc-title" data-i18n="col_mor_title"></h3>
+              <div class="pc-desc-block">
+                <div class="pc-desc-title" data-i18n="col_lbl_what"></div>
+                <p class="pc-desc-text" data-i18n="col_mor_desc"></p>
+              </div>
+              <div class="pc-specs">
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_orig"></strong
+                  ><span data-i18n="trace_val_reg_tz"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_taste"></strong
+                  ><span data-i18n="col_val_taste_herb"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_weight"></strong
+                  ><span data-i18n="col_val_weight_100"></span>
+                </div>
+              </div>
+              <div class="pc-actions">
+                <button
+                  class="btn-col btn-col-primary"
+                  onclick="openMarketplaceModal('moringa')"
+                  data-i18n="btn_buy"
+                ></button>
+                <button
+                  class="btn-col btn-col-outline"
+                  onclick="openProdModal('moringa')"
+                  data-i18n="col_btn_about"
+                ></button>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card" id="prod-ashwa">
+            <div class="pc-visual">
+              <img
+                src="/img/product3.min.jpg"
+                data-i18n-alt="alt_prod_ash"
+                class="pc-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="pc-info">
+              <span class="pc-meta" data-i18n="col_meta_balance"></span>
+              <h3 class="pc-title" data-i18n="nav_prod_ashwa"></h3>
+              <div class="pc-desc-block">
+                <div class="pc-desc-title" data-i18n="col_lbl_what"></div>
+                <p class="pc-desc-text" data-i18n="col_ashwa_desc"></p>
+              </div>
+              <div class="pc-desc-block">
+                <ul class="pc-feature-list">
+                  <li data-i18n="col_ashwa_f1"></li>
+                  <li data-i18n="col_ashwa_f2"></li>
+                  <li data-i18n="col_ashwa_f3"></li>
+                  <li data-i18n="col_ashwa_f4"></li>
+                </ul>
+              </div>
+              <div class="pc-specs">
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_orig"></strong
+                  ><span data-i18n="trace_val_reg_tz"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_taste"></strong
+                  ><span data-i18n="col_val_taste_herb"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_weight"></strong
+                  ><span data-i18n="col_val_weight_100"></span>
+                </div>
+              </div>
+              <div class="pc-actions">
+                <button
+                  class="btn-col btn-col-primary"
+                  onclick="openMarketplaceModal('ashwa')"
+                  data-i18n="btn_buy"
+                ></button>
+                <button
+                  class="btn-col btn-col-outline"
+                  onclick="openProdModal('ashwa')"
+                  data-i18n="col_btn_about"
+                ></button>
+              </div>
+            </div>
+          </article>
+
+          <article class="prod-card" id="prod-shata">
+            <div class="pc-visual">
+              <img
+                src="/img/product4.min.jpg"
+                data-i18n-alt="alt_prod_sha"
+                class="pc-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="pc-info">
+              <span class="pc-meta" data-i18n="col_meta_adapt"></span>
+              <h3 class="pc-title" data-i18n="nav_prod_shata"></h3>
+              <div class="pc-desc-block">
+                <div class="pc-desc-title" data-i18n="col_lbl_what"></div>
+                <p class="pc-desc-text" data-i18n="col_shata_desc"></p>
+              </div>
+              <div class="pc-desc-block">
+                <ul class="pc-feature-list">
+                  <li data-i18n="col_shata_f1"></li>
+                  <li data-i18n="col_shata_f2"></li>
+                  <li data-i18n="col_shata_f3"></li>
+                  <li data-i18n="col_shata_f4"></li>
+                </ul>
+              </div>
+              <div class="pc-specs">
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_orig"></strong
+                  ><span data-i18n="trace_val_reg_tz"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_taste"></strong
+                  ><span data-i18n="col_val_taste_root"></span>
+                </div>
+                <div class="spec-item">
+                  <strong data-i18n="col_lbl_weight"></strong
+                  ><span data-i18n="col_val_weight_100"></span>
+                </div>
+              </div>
+              <div class="pc-actions">
+                <button
+                  class="btn-col btn-col-primary"
+                  onclick="openMarketplaceModal('shata')"
+                  data-i18n="btn_buy"
+                ></button>
+                <button
+                  class="btn-col btn-col-outline"
+                  onclick="openProdModal('shata')"
+                  data-i18n="col_btn_about"
+                ></button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="sect-guide">
+        <div class="container">
+          <div class="guide-header">
+            <h2 data-i18n="guide_header_title"></h2>
+            <p data-i18n="guide_header_sub"></p>
+          </div>
+          <div class="guide-grid">
+            <article class="guide-card">
+              <div class="gc-visual-wrapper">
+                <img
+                  src="/img/01.min.jpg"
+                  data-i18n-alt="alt_guide_bao"
+                  class="gc-visual-full"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gc-inner">
+                <h3 class="gc-problem" data-i18n="nav_prod_baobab"></h3>
+                <p class="gc-symptoms" data-i18n="guide_bao_symp"></p>
+                <div class="gc-solution-block">
+                  <button
+                    class="btn-guide-full"
+                    onclick="openMarketplaceModal('baobab')"
+                    data-i18n="btn_buy"
+                  ></button>
+                </div>
+              </div>
+            </article>
+
+            <article class="guide-card">
+              <div class="gc-visual-wrapper">
+                <img
+                  src="/img/02.min.jpg"
+                  data-i18n-alt="alt_guide_mor"
+                  class="gc-visual-full"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gc-inner">
+                <h3 class="gc-problem" data-i18n="nav_prod_moringa"></h3>
+                <p class="gc-symptoms" data-i18n="guide_mor_symp"></p>
+                <div class="gc-solution-block">
+                  <button
+                    class="btn-guide-full"
+                    onclick="openMarketplaceModal('moringa')"
+                    data-i18n="btn_buy"
+                  ></button>
+                </div>
+              </div>
+            </article>
+
+            <article class="guide-card">
+              <div class="gc-visual-wrapper">
+                <img
+                  src="/img/03.min.jpg"
+                  data-i18n-alt="alt_guide_ash"
+                  class="gc-visual-full"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gc-inner">
+                <h3 class="gc-problem" data-i18n="nav_prod_ashwa"></h3>
+                <p class="gc-symptoms" data-i18n="guide_ashwa_symp"></p>
+                <div class="gc-solution-block">
+                  <button
+                    class="btn-guide-full"
+                    onclick="openMarketplaceModal('ashwa')"
+                    data-i18n="btn_buy"
+                  ></button>
+                </div>
+              </div>
+            </article>
+
+            <article class="guide-card">
+              <div class="gc-visual-wrapper">
+                <img
+                  src="/img/04.min.jpg"
+                  data-i18n-alt="alt_guide_sha"
+                  class="gc-visual-full"
+                  loading="lazy"
+                />
+              </div>
+              <div class="gc-inner">
+                <h3 class="gc-problem" data-i18n="nav_prod_shata"></h3>
+                <p class="gc-symptoms" data-i18n="guide_shata_symp"></p>
+                <div class="gc-solution-block">
+                  <button
+                    class="btn-guide-full"
+                    onclick="openMarketplaceModal('shata')"
+                    data-i18n="btn_buy"
+                  ></button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sect-parallax">
+        <img
+          src="/img/parallax-divider.min.jpg"
+          data-i18n-alt="alt_parallax"
+          class="parallax-img"
+          loading="lazy"
+        />
+      </section>
+
+      <section id="sect-coming-soon">
+        <div class="container">
+          <div class="cs-header">
+            <h2 data-i18n="cs_header_title"></h2>
+            <p data-i18n="cs_header_sub"></p>
+          </div>
+          <div class="cs-grid">
+            <article class="cs-card">
+              <div class="cs-visual">
+                <span class="cs-badge" data-i18n="cs_badge_wait"></span>
+                <img
+                  src="/img/mondia.min.jpg"
+                  data-i18n-alt="alt_cs_mondia"
+                  loading="lazy"
+                />
+              </div>
+              <div class="cs-info">
+                <h3 class="cs-title" data-i18n="cs_mondia_title"></h3>
+                <span class="cs-subtitle" data-i18n="cs_mondia_sub"></span>
+                <p class="cs-desc" data-i18n="cs_mondia_desc"></p>
+                <div class="cs-tags">
+                  <span class="cs-tag" data-i18n="cs_tag_wild"></span>
+                </div>
+                <button
+                  class="btn-cs"
+                  onclick="openModal('contact', 'Предзаказ')"
+                  data-i18n="cs_btn_notify"
+                ></button>
+              </div>
+            </article>
+
+            <article class="cs-card">
+              <div class="cs-visual">
+                <span class="cs-badge" data-i18n="cs_badge_wait"></span>
+                <img
+                  src="/img/ginger.min.jpg"
+                  data-i18n-alt="alt_cs_ginger"
+                  loading="lazy"
+                />
+              </div>
+              <div class="cs-info">
+                <h3 class="cs-title" data-i18n="cs_ginger_title"></h3>
+                <span class="cs-subtitle" data-i18n="cs_ginger_sub"></span>
+                <p class="cs-desc" data-i18n="cs_ginger_desc"></p>
+                <button
+                  class="btn-cs"
+                  onclick="openModal('contact', 'Предзаказ')"
+                  data-i18n="cs_btn_notify"
+                ></button>
+              </div>
+            </article>
+
+            <article class="cs-card">
+              <div class="cs-visual">
+                <span class="cs-badge" data-i18n="cs_badge_wait"></span>
+                <img
+                  src="/img/seamoss.min.jpg"
+                  data-i18n-alt="alt_cs_moss"
+                  loading="lazy"
+                />
+              </div>
+              <div class="cs-info">
+                <h3 class="cs-title" data-i18n="cs_moss_title"></h3>
+                <span class="cs-subtitle" data-i18n="cs_moss_sub"></span>
+                <p class="cs-desc" data-i18n="cs_moss_desc"></p>
+                <button
+                  class="btn-cs"
+                  onclick="openModal('contact', 'Предзаказ')"
+                  data-i18n="cs_btn_notify"
+                ></button>
+              </div>
+            </article>
+
+            <article class="cs-card">
+              <div class="cs-visual">
+                <span class="cs-badge" data-i18n="cs_badge_wait"></span>
+                <img
+                  src="/img/turmeric.min.jpg"
+                  data-i18n-alt="alt_cs_turm"
+                  loading="lazy"
+                />
+              </div>
+              <div class="cs-info">
+                <h3 class="cs-title" data-i18n="cs_turm_title"></h3>
+                <span class="cs-subtitle" data-i18n="cs_turm_sub"></span>
+                <p class="cs-desc" data-i18n="cs_turm_desc"></p>
+                <button
+                  class="btn-cs"
+                  onclick="openModal('contact', 'Предзаказ')"
+                  data-i18n="cs_btn_notify"
+                ></button>
+              </div>
+            </article>
+
+            <article class="cs-card">
+              <div class="cs-visual">
+                <span class="cs-badge" data-i18n="cs_badge_wait"></span>
+                <img
+                  src="/img/tulsi.min.jpg"
+                  data-i18n-alt="alt_cs_tulsi"
+                  loading="lazy"
+                />
+              </div>
+              <div class="cs-info">
+                <h3 class="cs-title" data-i18n="cs_tulsi_title"></h3>
+                <span class="cs-subtitle" data-i18n="cs_tulsi_sub"></span>
+                <p class="cs-desc" data-i18n="cs_tulsi_desc"></p>
+                <button
+                  class="btn-cs"
+                  onclick="openModal('contact', 'Предзаказ')"
+                  data-i18n="cs_btn_notify"
+                ></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sect-manifest">
+        <div class="man-bg-overlay"></div>
+        <div class="container man-container">
+          <div class="man-pre-title" data-i18n="man_pre_title"></div>
+          <h2 class="man-quote" data-i18n="man_quote"></h2>
+          <button
+            class="btn-hero btn-hero-primary"
+            onclick="openModal('manifest')"
+            data-i18n="man_btn_read"
+          ></button>
+        </div>
+      </section>
+
+      <section id="sect-faq-contact">
+        <div class="container help-grid">
+          <div class="faq-column">
+            <div class="faq-header">
+              <h2 data-i18n="faq_title"></h2>
+            </div>
+            <div class="faq-list">
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q1"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a1"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q2"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a2"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q3"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a3"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q4"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a4"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q5"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a5"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q6"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a6"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q7"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a7"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q8"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a8"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q9"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a9"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q10"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a10"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q11"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a11"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q12"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a12"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q13"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a13"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q14"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a14"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q15"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a15"></div>
+                </div>
+              </div>
+              <div class="faq-item">
+                <button
+                  class="faq-trigger"
+                  onclick="toggleFaq(this)"
+                  data-i18n="faq_q16"
+                ></button>
+                <div class="faq-content">
+                  <div class="faq-inner" data-i18n="faq_a16"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3 class="cc-title" data-i18n="contact_card_title"></h3>
+            <p class="cc-sub" data-i18n="contact_card_sub"></p>
+            <form id="contactFormBlock" class="smart-form" novalidate>
+              <input type="hidden" name="form_type" value="contact" />
+
+              <div class="h-pot" aria-hidden="true">
+                <label for="work_email"
+                  >Оставьте это поле пустым, если вы человек</label
+                >
+                <input
+                  type="text"
+                  name="work_email"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="f-group">
+                <label class="f-label" data-i18n="form_lbl_name"></label>
+                <input
+                  type="text"
+                  name="user_name"
+                  class="f-input"
+                  data-i18n="form_plh_name"
+                  placeholder=""
+                  required
+                />
+                <div class="f-error-msg" data-i18n="form_err_name"></div>
+              </div>
+
+              <div class="f-group">
+                <label class="f-label" data-i18n="form_lbl_subj"></label>
+                <select name="subject" class="f-select">
+                  <option
+                    value="Помощь с выбором продукта"
+                    data-i18n="form_opt_1"
+                  ></option>
+                  <option
+                    value="Вопрос по доставке"
+                    data-i18n="form_opt_2"
+                  ></option>
+                  <option
+                    value="Оптовое сотрудничество"
+                    data-i18n="form_opt_3"
+                  ></option>
+                  <option value="Предзаказ" data-i18n="form_opt_4"></option>
+                </select>
+              </div>
+
+              <div class="f-group">
+                <label class="f-label" data-i18n="form_lbl_comm"></label>
+                <div class="comm-row">
+                  <label class="comm-opt">
+                    <input
+                      type="radio"
+                      name="comm"
+                      value="WhatsApp"
+                      checked
+                      onchange="updateContactInput(this)"
+                    />
+                    <span class="comm-box">WhatsApp</span>
+                  </label>
+                  <label class="comm-opt">
+                    <input
+                      type="radio"
+                      name="comm"
+                      value="Telegram"
+                      onchange="updateContactInput(this)"
+                    />
+                    <span class="comm-box">Telegram</span>
+                  </label>
+                  <label class="comm-opt">
+                    <input
+                      type="radio"
+                      name="comm"
+                      value="Email"
+                      onchange="updateContactInput(this)"
+                    />
+                    <span class="comm-box">Email</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="f-group">
+                <label
+                  class="f-label dynamic-contact-label"
+                  data-i18n="form_lbl_phone"
+                ></label>
+                <input
+                  type="tel"
+                  name="contact_info"
+                  class="f-input dynamic-contact-input"
+                  placeholder="+7 (___) ___-__-__"
+                  data-mask="phone"
+                  required
+                />
+                <div
+                  class="f-error-msg dynamic-error-msg"
+                  data-i18n="form_err_phone"
+                ></div>
+              </div>
+
+              <div class="form-status-box"></div>
+
+              <button type="submit" class="btn-modal btn-submit">
+                <span class="btn-text" data-i18n="btn_send"></span>
+                <span
+                  class="btn-loader"
+                  style="display: none"
+                  data-i18n="btn_sending"
+                ></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="modal-backdrop" id="pm-baobab">
+        <div class="modal-window modal-large" data-lenis-prevent>
+          <button class="modal-close" onclick="closeProdModal('baobab')">
+            ×
+          </button>
+          <div class="pm-header">
+            <h2 class="pm-title" data-i18n="pm_title_bao"></h2>
+            <span class="pm-latin" data-i18n="pm_latin_bao"></span>
+          </div>
+          <div class="pm-grid-info">
+            <div>
+              <span class="pm-section-title" data-i18n="pm_sec_orig"></span>
+              <p class="pm-text-block" data-i18n="pm_txt_orig_bao"></p>
+
+              <span
+                class="pm-section-title mt-25"
+                data-i18n="pm_sec_comp"
+              ></span>
+              <ul class="pm-list">
+                <li data-i18n="pm_li_comp_bao1"></li>
+                <li data-i18n="pm_li_comp_bao2"></li>
+                <li data-i18n="pm_li_comp_bao3"></li>
+              </ul>
+
+              <span
+                class="pm-section-title mt-25"
+                data-i18n="pm_sec_nutri"
+              ></span>
+              <table class="nutri-table">
+                <tr>
+                  <th data-i18n="pm_nutri_param"></th>
+                  <th data-i18n="pm_nutri_val"></th>
+                </tr>
+                <tr>
+                  <td data-i18n="pm_n1"></td>
+                  <td data-i18n="pm_v1"></td>
+                </tr>
+                <tr>
+                  <td data-i18n="pm_n2"></td>
+                  <td data-i18n="pm_v2"></td>
+                </tr>
+                <tr>
+                  <td data-i18n="pm_n3"></td>
+                  <td data-i18n="pm_v3"></td>
+                </tr>
+                <tr>
+                  <td data-i18n="pm_n4"></td>
+                  <td data-i18n="pm_v4"></td>
+                </tr>
+                <tr>
+                  <td data-i18n="pm_n5"></td>
+                  <td data-i18n="pm_v5"></td>
+                </tr>
+                <tr>
+                  <td data-i18n="pm_n6"></td>
+                  <td data-i18n="pm_v6"></td>
+                </tr>
+              </table>
+            </div>
+            <div class="pm-col-flex">
+              <div>
+                <span class="pm-section-title" data-i18n="pm_sec_usage"></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_use_bao1"></li>
+                  <li data-i18n="pm_li_use_bao2"></li>
+                </ul>
+                <span
+                  class="pm-section-title mt-25"
+                  data-i18n="pm_sec_store"
+                ></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_store1"></li>
+                  <li data-i18n="pm_li_store2"></li>
+                </ul>
+                <span
+                  class="pm-section-title mt-25"
+                  data-i18n="pm_sec_prod"
+                ></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_prod1"></li>
+                  <li data-i18n="pm_li_prod2"></li>
+                  <li data-i18n="pm_li_prod3"></li>
+                </ul>
+              </div>
+              <button
+                class="pm-btn-buy"
+                onclick="switchToMarketplace('baobab')"
+                data-i18n="pm_btn_buy"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-backdrop" id="pm-moringa">
+        <div class="modal-window modal-large" data-lenis-prevent>
+          <button class="modal-close" onclick="closeProdModal('moringa')">
+            ×
+          </button>
+          <div class="pm-header">
+            <h2 class="pm-title" data-i18n="pm_title_mor"></h2>
+            <span class="pm-latin" data-i18n="pm_latin_mor"></span>
+          </div>
+          <div class="pm-grid-info">
+            <div>
+              <span class="pm-section-title" data-i18n="pm_sec_intro"></span>
+              <p class="pm-text-block" data-i18n="pm_txt_intro_mor"></p>
+              <span
+                class="pm-section-title mt-25"
+                data-i18n="pm_sec_special"
+              ></span>
+              <p class="pm-text-block" data-i18n="pm_txt_special"></p>
+              <ul class="pm-list">
+                <li data-i18n="pm_li_mor1"></li>
+                <li data-i18n="pm_li_mor2"></li>
+                <li data-i18n="pm_li_mor3"></li>
+                <li data-i18n="pm_li_mor4"></li>
+              </ul>
+              <p class="pm-text-block" data-i18n="pm_txt_mor_end"></p>
+            </div>
+            <div class="pm-col-flex">
+              <div>
+                <span
+                  class="pm-section-title"
+                  data-i18n="pm_sec_everyday"
+                ></span>
+                <p class="pm-text-block" data-i18n="pm_txt_everyday"></p>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_use_mor1"></li>
+                  <li data-i18n="pm_li_use_mor2"></li>
+                  <li data-i18n="pm_li_use_mor3"></li>
+                  <li data-i18n="pm_li_use_mor4"></li>
+                </ul>
+                <span
+                  class="pm-section-title mt-25"
+                  data-i18n="pm_sec_guarantee"
+                ></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_guar1"></li>
+                  <li data-i18n="pm_li_guar2"></li>
+                  <li data-i18n="pm_li_guar3"></li>
+                </ul>
+              </div>
+              <button
+                class="pm-btn-buy"
+                onclick="switchToMarketplace('moringa')"
+                data-i18n="pm_btn_buy"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-backdrop" id="pm-ashwa">
+        <div class="modal-window modal-large" data-lenis-prevent>
+          <button class="modal-close" onclick="closeProdModal('ashwa')">
+            ×
+          </button>
+          <div class="pm-header">
+            <h2 class="pm-title" data-i18n="pm_title_ashwa"></h2>
+            <span class="pm-latin" data-i18n="pm_latin_ashwa"></span>
+          </div>
+          <div class="pm-grid-info">
+            <div>
+              <p class="pm-text-block" data-i18n="pm_txt_ashwa_intro"></p>
+              <span
+                class="pm-section-title mt-25"
+                data-i18n="pm_sec_why_ashwa"
+              ></span>
+              <ul class="pm-list">
+                <li data-i18n="pm_li_why_a1"></li>
+                <li data-i18n="pm_li_why_a2"></li>
+                <li data-i18n="pm_li_why_a3"></li>
+                <li data-i18n="pm_li_why_a4"></li>
+              </ul>
+            </div>
+            <div class="pm-col-flex">
+              <div>
+                <span class="pm-section-title" data-i18n="pm_sec_10sec"></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_10s_a1"></li>
+                  <li data-i18n="pm_li_10s_a2"></li>
+                  <li data-i18n="pm_li_10s_a3"></li>
+                </ul>
+                <p class="pm-text-block" data-i18n="pm_txt_ritual"></p>
+                <span
+                  class="pm-section-title mt-25"
+                  data-i18n="pm_sec_guar2"
+                ></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_guar_a1"></li>
+                </ul>
+                <div class="pm-disclaimer" data-i18n="pm_disclaimer"></div>
+              </div>
+              <button
+                class="pm-btn-buy"
+                onclick="switchToMarketplace('ashwa')"
+                data-i18n="pm_btn_buy"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-backdrop" id="pm-shata">
+        <div class="modal-window modal-large" data-lenis-prevent>
+          <button class="modal-close" onclick="closeProdModal('shata')">
+            ×
+          </button>
+          <div class="pm-header">
+            <h2 class="pm-title" data-i18n="pm_title_shata"></h2>
+            <span class="pm-latin" data-i18n="pm_latin_shata"></span>
+          </div>
+          <div class="pm-grid-info">
+            <div>
+              <p class="pm-text-block" data-i18n="pm_txt_shata_intro"></p>
+              <span
+                class="pm-section-title mt-25"
+                data-i18n="pm_sec_why_shata"
+              ></span>
+              <ul class="pm-list">
+                <li data-i18n="pm_li_why_s1"></li>
+                <li data-i18n="pm_li_why_s2"></li>
+                <li data-i18n="pm_li_why_s3"></li>
+                <li data-i18n="pm_li_why_s4"></li>
+              </ul>
+              <span
+                class="pm-section-title mt-25"
+                data-i18n="pm_sec_for_who"
+              ></span>
+              <ul class="pm-list">
+                <li data-i18n="pm_li_who_1"></li>
+                <li data-i18n="pm_li_who_2"></li>
+                <li data-i18n="pm_li_who_3"></li>
+                <li data-i18n="pm_li_who_4"></li>
+              </ul>
+            </div>
+            <div class="pm-col-flex">
+              <div>
+                <span
+                  class="pm-section-title"
+                  data-i18n="pm_sec_how_use"
+                ></span>
+                <p class="pm-text-block" data-i18n="pm_txt_dose"></p>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_dose1"></li>
+                  <li data-i18n="pm_li_dose2"></li>
+                  <li data-i18n="pm_li_dose3"></li>
+                  <li data-i18n="pm_li_dose4"></li>
+                </ul>
+                <p class="pm-text-block" data-i18n="pm_txt_mix"></p>
+                <span
+                  class="pm-section-title mt-25"
+                  data-i18n="pm_sec_guar2"
+                ></span>
+                <ul class="pm-list">
+                  <li data-i18n="pm_li_guar_s1"></li>
+                  <li data-i18n="pm_li_guar_s2"></li>
+                  <li data-i18n="pm_li_guar_s3"></li>
+                  <li data-i18n="pm_li_guar_s4"></li>
+                </ul>
+                <div class="pm-disclaimer" data-i18n="pm_disclaimer2"></div>
+              </div>
+              <button
+                class="pm-btn-buy"
+                onclick="switchToMarketplace('shata')"
+                data-i18n="pm_btn_buy"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-backdrop" id="modal-manifest">
+        <div class="modal-window modal-large p-0 overflow-hidden">
+          <button
+            class="modal-close man-modal-close"
+            onclick="closeModal('manifest')"
+          >
+            ×
+          </button>
+          <div class="man-modal-hero bg-tanzania">
+            <div class="man-hero-caption" data-i18n="man_caption"></div>
+          </div>
+          <div class="man-modal-body" data-lenis-prevent>
+            <h3 class="pm-title mb-30" data-i18n="man_title"></h3>
+            <p class="pm-text-block" data-i18n="man_p1"></p>
+            <p class="pm-text-block" data-i18n="man_p2"></p>
+            <h4 class="pm-section-title mt-25" data-i18n="man_sub1"></h4>
+            <p class="pm-text-block" data-i18n="man_p3"></p>
+            <p class="pm-text-block" data-i18n="man_p4"></p>
+            <h4 class="pm-section-title mt-25" data-i18n="man_sub2"></h4>
+            <p class="pm-text-block" data-i18n="man_p5"></p>
+            <p class="pm-text-block mb-5" data-i18n="man_p6"></p>
+            <ul class="pm-list">
+              <li data-i18n="man_li1"></li>
+              <li data-i18n="man_li2"></li>
+              <li data-i18n="man_li3"></li>
+              <li data-i18n="man_li4"></li>
+            </ul>
+            <p class="pm-text-block" data-i18n="man_p7"></p>
+            <h4 class="pm-section-title mt-25" data-i18n="man_sub3"></h4>
+            <p class="pm-text-block" data-i18n="man_p8"></p>
+            <div class="founder-sig">
+              <span class="sig-name" data-i18n="man_sig_name"></span>
+              <span class="sig-role" data-i18n="man_sig_role"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      <div class="container footer-container">
+        <div class="footer-grid">
+          <div class="footer-col brand-col">
+            <div class="logo">
+              <svg
+                class="logo-svg"
+                width="179"
+                height="22"
+                viewBox="0 0 2000 243"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M447.531 148.308C447.531 177.126 438.804 200.263 421.35 217.718C404.832 234.235 384.097 242.494 359.145 242.494C331.849 242.494 309.767 235.406 292.897 221.231C274.037 205.299 264.606 182.339 264.606 152.35V3.51465C274.33 4.10038 283.468 4.39258 292.02 4.39258C300.688 4.39256 307.834 3.92446 313.457 2.9873V154.634C313.457 169.394 317.967 180.875 326.987 189.075C335.422 196.573 345.965 200.321 358.617 200.321C377.361 200.321 389.837 190.715 396.046 171.503C398.272 164.591 399.384 156.039 399.384 145.848V3.51465C406.647 4.10038 412.68 4.39258 417.483 4.39258H432.068C436.988 4.39257 442.143 3.92443 447.531 2.9873V148.308ZM594.405 0C611.157 0 624.864 1.58117 635.524 4.74414C646.302 7.90711 655.088 12.1835 661.883 17.5723C675.237 27.9982 681.914 41.5286 681.914 58.1631C681.914 74.6808 675.882 88.3876 663.815 99.2822C678.107 103.734 689.178 112.168 697.026 124.586C704.172 135.715 707.745 148.074 707.745 161.663C707.745 175.135 705.753 186.673 701.771 196.279C697.905 205.885 691.638 214.145 682.969 221.057C674.417 227.851 663.288 233.122 649.582 236.871C635.876 240.62 619.007 242.494 598.975 242.494C579.06 242.494 557.855 240.678 535.363 237.047V5.44727C558.09 1.81574 577.771 3.24919e-05 594.405 0ZM1031.01 0C1063.35 5.24443e-07 1090.58 10.1917 1112.72 30.5752C1136.39 52.3645 1148.22 81.7687 1148.22 118.787C1148.22 154.634 1136.04 184.448 1111.67 208.229C1096.68 222.872 1078.81 232.946 1058.08 238.452C1047.88 241.146 1035.93 242.494 1022.23 242.494C1008.64 242.494 994.64 239.683 980.231 234.06C965.94 228.437 953.463 220.529 942.803 210.337C932.143 200.145 923.708 187.903 917.499 173.611C911.408 159.32 908.362 143.68 908.362 126.694C908.362 109.591 911.232 93.4244 916.973 78.1953C922.713 62.9664 930.913 49.5535 941.573 37.9561C952.234 26.3585 965.119 17.1617 980.231 10.3672C995.343 3.45554 1012.27 0 1031.01 0ZM1685.14 0C1707.04 0 1725.73 3.80733 1741.19 11.4219V65.1924L1740.84 65.5439C1734.28 55.4693 1720.46 48.7918 1699.37 45.5117C1693.16 44.4574 1685.31 43.9297 1675.82 43.9297C1666.34 43.9297 1657.02 45.7455 1647.88 49.377C1638.75 52.8913 1631.25 57.9292 1625.39 64.4893C1614.03 77.2583 1608.35 95.475 1608.35 119.139C1608.35 146.668 1615.55 167.169 1629.96 180.641C1641.91 191.887 1657.72 197.51 1677.41 197.51C1699.66 197.51 1717.7 192.765 1731.53 183.276C1736.56 179.879 1740.84 175.661 1744.35 170.624L1744.88 170.976V220.178C1726.96 235.055 1702.83 242.494 1672.49 242.494C1636.76 242.494 1608.76 231.131 1588.49 208.404C1569.04 186.732 1559.32 158.031 1559.32 122.302C1559.32 84.4633 1569.98 54.6487 1591.3 32.8594C1612.86 10.9532 1644.14 6.28874e-05 1685.14 0ZM1867.33 3.86621C1874.95 4.21765 1883.03 4.39258 1891.58 4.39258C1898.61 4.39257 1907.04 4.27628 1916.88 4.04199L1917.06 4.39258C1916.83 4.86117 1916.71 5.50614 1916.71 6.32617C1916.71 8.55213 1918.47 14.4677 1921.98 24.0732L2000 238.628C1997.66 238.511 1994.9 238.452 1991.74 238.452C1991.74 238.452 1988.7 238.336 1982.6 238.102H1947.46L1930.94 187.493H1851.52L1835 239.507C1824.92 238.57 1813.15 238.102 1799.68 238.102H1785.8L1862.24 23.8984C1865.63 14.2924 1867.33 8.72701 1867.33 7.2041C1867.33 5.56494 1867.27 4.56955 1867.16 4.21777L1867.33 3.86621ZM1364.86 0.175781V45.1602L1364.33 45.6875C1360.46 44.3989 1350.04 43.7539 1333.05 43.7539H1306.69V239.155C1301.07 238.452 1286.6 238.102 1263.29 238.102H1257.67V43.7539H1222.87C1212.56 43.7539 1206.47 44.2817 1204.6 45.3359C1202.72 46.3903 1201.26 47.3274 1200.21 48.1475L1199.68 47.9717V2.9873L1200.21 2.45996C1204.07 3.74858 1214.5 4.39258 1231.48 4.39258H1341.66C1351.97 4.39258 1358.06 3.86572 1359.93 2.81152C1361.81 1.7572 1363.27 0.820028 1364.33 0L1364.86 0.175781ZM129.33 150.943V16.3418C129.33 9.89883 128.745 5.91547 127.573 4.39258H175.018C174.432 9.07845 174.139 14.2334 174.139 19.8564V238.102H137.589L45.8633 97.3486V238.102H0C0.702881 234.119 1.05469 229.784 1.05469 225.098V4.39258H36.1982L129.33 150.943ZM828.789 238.102H780.114V3.69043C791.828 4.15899 798.916 4.39256 801.376 4.39258H814.028C820.237 4.39257 825.215 3.9244 828.964 2.9873L828.789 238.102ZM1485.55 238.102H1436.87V3.69043C1448.59 4.15902 1455.67 4.39258 1458.13 4.39258H1470.79C1476.99 4.39258 1481.97 3.92447 1485.72 2.9873L1485.55 238.102ZM1014.46 44.3809C1013.96 44.191 1013.42 44.1564 1012.91 44.2822L1006.93 45.7461L997.933 44.999C997.536 44.9665 997.137 45.0248 996.767 45.1699L990.98 47.4375L983.319 46.5713C982.972 46.5327 982.621 46.5634 982.286 46.6621C981.951 46.7609 981.64 46.926 981.371 47.1465L975.304 52.1562C974.977 52.4258 974.722 52.7709 974.563 53.1611C973.528 55.5583 972.201 57.8221 970.611 59.9014C969.931 60.7634 968.903 61.0277 967.287 61.3623C965.416 61.7481 962.287 62.3951 961.645 65.8633C961.5 66.636 960.656 67.2799 959.293 68.2646C957.412 69.4064 955.899 71.0548 954.931 73.0166C953.446 76.5715 952.549 78.7177 953.508 83.417C953.923 85.4481 951.972 89.9984 950.453 92.5801C950.276 92.883 950.162 93.2187 950.12 93.5664C950.035 94.2856 949.41 100.676 954.005 103.151C956.153 104.31 957.473 108.176 956.961 109.597C956.367 111.248 956.929 113.078 958.633 115.032C961.257 118.043 967.129 121.811 970.752 121.098C970.896 121.07 971.038 121.029 971.176 120.978C973.298 120.174 979.54 118.428 982.898 119.97C983.298 120.153 983.738 120.233 984.177 120.2C984.616 120.168 985.039 120.024 985.406 119.784C987.296 118.55 993.469 115.165 996.942 115.786C997.071 115.808 997.175 115.832 997.256 115.854L997.255 116.218C997.18 116.899 997.258 117.589 997.482 118.237C997.707 118.886 998.071 119.477 998.552 119.971C999.274 120.51 1000.1 120.896 1000.98 121.104C1001.86 121.313 1002.77 121.341 1003.66 121.185C1004.91 121.019 1006.17 121.049 1007.4 121.273C1007.3 122.173 1007.08 123.057 1006.76 123.904C1005 129.263 1004.35 132.315 1010.15 137.808C1012.41 140.039 1014.08 142.792 1015.01 145.82C1014.17 147.05 1013.7 148.487 1013.65 149.969C1013.59 151.45 1013.96 152.917 1014.7 154.203C1012.49 157.913 1011.68 162.277 1012.41 166.522C1012.7 169.771 1014.2 172.798 1016.61 175.018C1017.09 175.354 1017.47 175.798 1017.74 176.313C1018 176.829 1018.14 177.399 1018.13 177.978C1018.28 182.953 1018.44 188.094 1023.96 191.597C1025.75 193.708 1027.34 196.347 1027.45 197.367C1026.82 198.266 1026.55 199.367 1026.7 200.451C1027.09 203.556 1030.56 206.376 1031.61 207.166C1032.06 207.516 1032.62 207.711 1033.19 207.72C1033.32 207.72 1033.45 207.709 1033.58 207.687C1033.93 207.634 1034.26 207.51 1034.55 207.323C1034.84 207.137 1035.09 206.892 1035.28 206.604C1035.33 206.533 1036.69 204.848 1040.96 204.383C1047.6 203.66 1052.41 200.344 1054.22 197.379C1054.76 196.752 1055.34 196.17 1055.98 195.639C1058.26 193.565 1061.85 190.32 1061.9 186.002C1064.84 185 1068.46 183.048 1067.8 179.617C1067.58 178.597 1067.3 177.589 1066.97 176.599C1066.54 175.354 1066.21 174.08 1065.97 172.788C1067.72 171.553 1072.08 168.656 1074.17 167.273C1076.66 166.544 1080.63 164.178 1080.63 159.436L1080.62 159.435C1080.63 158.048 1080.46 156.665 1080.11 155.322C1079.77 154.163 1079.9 152.916 1080.47 151.85C1080.98 150.697 1081.15 149.431 1080.99 148.186C1080.82 146.94 1080.32 145.763 1079.53 144.779C1078.71 143.667 1078.2 142.359 1078.05 140.988C1077.82 139.043 1078.48 138.28 1080.41 136.365C1082.19 134.735 1083.68 132.818 1084.82 130.696C1085.89 128.591 1088.4 126.675 1090.82 124.823C1094.16 122.275 1097.6 119.641 1098.59 115.773C1099.1 113.767 1099.74 111.822 1100.36 109.941C1101.49 106.501 1102.46 103.53 1102.34 101.092C1102.31 100.477 1102.05 99.8938 1101.62 99.4502C1101.19 99.0068 1100.61 98.7327 1099.99 98.6777C1096.66 98.5794 1093.35 99.3018 1090.37 100.78C1089.69 101.134 1088.94 101.322 1088.17 101.325C1087.4 101.329 1086.64 101.149 1085.96 100.801C1085.54 98.5691 1083.8 95.527 1079.11 93.418C1077.39 92.6415 1077.35 92.3708 1077.19 91.2305C1077.08 89.8711 1076.63 88.5586 1075.9 87.4023C1075.17 86.2461 1074.17 85.2789 1072.99 84.5811C1070.98 83.1801 1070.91 82.6369 1070.78 81.6523C1070.65 80.4506 1070.28 79.286 1069.68 78.2324C1069.09 77.179 1068.28 76.2578 1067.31 75.5264C1063.17 71.8819 1060.66 62.9977 1060.66 60.0635C1060.66 59.6457 1060.56 59.2342 1060.36 58.8652C1060.16 58.4963 1059.88 58.1811 1059.53 57.9473C1058.13 57.1217 1056.55 56.6525 1054.93 56.584C1053.31 56.5156 1051.7 56.8495 1050.24 57.5547C1047.99 56.2101 1045.31 55.7609 1042.74 56.2969C1040.53 54.8279 1036.1 52.5459 1033.01 55.3711C1031.81 56.469 1030.84 57.7865 1030.14 59.25C1028.83 58.7155 1027.52 58.1472 1026.23 57.5469C1026.02 56.9674 1025.71 56.4326 1025.3 55.9697C1023.9 54.3781 1021.57 53.5913 1018.21 53.5771C1018.02 53.3669 1017.83 53.141 1017.67 52.9023C1018.12 52.1312 1018.41 51.2753 1018.51 50.3896C1018.61 49.5042 1018.52 48.6077 1018.26 47.7568C1017.9 46.9575 1017.38 46.2427 1016.73 45.6602C1016.07 45.0776 1015.3 44.6411 1014.46 44.3809ZM607.937 130.385C598.096 130.385 589.427 131.029 581.93 132.317V201.376C590.13 203.485 598.741 204.538 607.761 204.538C616.781 204.538 624.688 203.485 631.482 201.376C638.394 199.15 644.193 196.163 648.879 192.414C658.368 184.682 663.112 174.842 663.112 162.893C663.112 141.221 644.72 130.385 607.937 130.385ZM1094.37 160.438C1094.02 160.463 1093.69 160.556 1093.38 160.713C1093.07 160.869 1092.8 161.085 1092.58 161.348C1092.35 161.611 1092.19 161.915 1092.09 162.243C1091.64 163.694 1089.79 168.069 1087.26 169.092C1086.38 169.431 1085.48 169.711 1084.56 169.931C1081.96 170.608 1078.04 171.63 1078.85 177.603C1079.12 179.544 1078.3 180.687 1077.26 182.13C1076.07 183.489 1075.37 185.195 1075.25 186.989C1075.25 189.335 1076.65 191.491 1077.77 193.224C1078.16 193.792 1078.52 194.385 1078.83 194.999C1078.79 195.431 1078.85 195.867 1078.99 196.276C1079.14 196.686 1079.37 197.061 1079.67 197.375C1080.07 197.798 1080.99 198.762 1084.59 198.762C1085.93 198.749 1087.26 198.65 1088.58 198.465C1088.99 198.411 1089.38 198.261 1089.72 198.026C1090.06 197.792 1090.34 197.481 1090.53 197.118C1095.64 187.463 1096.8 185.191 1097.06 184.286V184.287C1097.25 183.65 1099.07 178.758 1100.73 174.396C1100.79 174.23 1100.84 174.058 1100.86 173.884C1101.49 169.834 1101.05 162.473 1095.39 160.565C1095.06 160.456 1094.71 160.412 1094.37 160.438ZM1864.87 145.32H1917.24L1890.7 63.6104L1864.87 145.32ZM604.246 36.9014C595.343 36.9014 587.904 37.2532 581.93 37.9561V92.7803C586.85 93.6003 593 94.0107 600.38 94.0107C607.76 94.0107 613.794 93.0736 618.479 91.1992C623.283 89.2077 626.973 86.747 629.55 83.8184C633.767 79.0153 635.876 72.3378 635.876 63.7861C635.876 45.8629 625.332 36.9014 604.246 36.9014Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <p class="footer-tagline" data-i18n="footer_tagline"></p>
+            <div class="footer-socials">
+              <a
+                href="https://www.instagram.com/nubiotica.kz"
+                class="f-social-icon"
+                target="_blank"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                  /></svg
+              ></a>
+              <a
+                href="https://t.me/nubiotica"
+                class="f-social-icon"
+                target="_blank"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.94z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer_h_cat"></h4>
+            <ul class="footer-links">
+              <li><a href="#prod-baobab" data-i18n="nav_prod_baobab"></a></li>
+              <li><a href="#prod-moringa" data-i18n="nav_prod_moringa"></a></li>
+              <li><a href="#prod-ashwa" data-i18n="nav_prod_ashwa"></a></li>
+              <li><a href="#prod-shata" data-i18n="nav_prod_shata"></a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer_h_about"></h4>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="#"
+                  onclick="openModal('manifest'); return false;"
+                  data-i18n="footer_l_hist"
+                ></a>
+              </li>
+              <li><a href="#sect-trace" data-i18n="nav_trace"></a></li>
+              <li>
+                <a href="#sect-philosophy" data-i18n="nav_philosophy"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer_h_help"></h4>
+            <ul class="footer-links">
+              <li><a href="#sect-faq-contact" data-i18n="nav_faq"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright" data-i18n="footer_copyright"></div>
+          <div class="legal-links">
+            <a href="terms.html" target="_blank" data-i18n="footer_terms"></a>
+            <a href="policy.html" target="_blank" data-i18n="footer_policy"></a>
+            <a
+              href="storage.html"
+              target="_blank"
+              data-i18n="footer_storage"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="desktop-chat-widget" onclick="openModal('contact')">
+      <div class="chat-widget-icon">
+        <svg
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+          ></path>
+        </svg>
+      </div>
+      <span class="chat-widget-text" data-i18n="chat_widget_txt"></span>
+    </div>
+  </body>
+</html>
