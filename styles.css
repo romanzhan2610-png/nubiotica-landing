@@ -2338,6 +2338,7 @@ video {
     font-size: clamp(2.2rem, 8vw, 3rem);
     text-shadow: none;
     margin-bottom: 20px;
+    color: var(--text-main);
   }
   .hero-sub {
     font-size: 15px;
